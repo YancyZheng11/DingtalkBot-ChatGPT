@@ -4,9 +4,7 @@
 ### 第一步：
 打开start.py
 
-将data_token里面的appKey和appSecret换成钉钉
-
-企业应用里面的appKey和appSecret
+将data_token里面的appKey和appSecret换成钉钉企业应用里面的appKey和appSecret
 
 将port的值改成想要的端口号
 
