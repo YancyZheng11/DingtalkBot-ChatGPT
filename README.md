@@ -20,6 +20,8 @@
 
 （确保api-key里面还有额度）
 
+打开start.py
+
 将openai.api_key的值改成自己的api-key
 
 将port的值改成想要的端口号
