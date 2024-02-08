@@ -3,7 +3,7 @@
 ![1](https://github.com/YancyZheng11/DingtalkBot-ChatGPT/blob/main/example/1.jpg)
 ## 使用方法：
 ### 第一步：
-打开钉钉管理后台
+打开[钉钉管理后台](https://oa.dingtalk.com/)
 
 创建或进入一个应用
 
