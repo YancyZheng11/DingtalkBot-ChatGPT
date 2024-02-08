@@ -1,5 +1,6 @@
 # DingtalkBot-ChatGPT
 将ChatGPT接入到钉钉机器人中
+![1](https://github.com/YancyZheng11/DingtalkBot-ChatGPT/blob/main/example/1.jpg)
 ## 使用方法：
 ### 第一步：
 打开钉钉管理后台
