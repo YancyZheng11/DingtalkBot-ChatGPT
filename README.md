@@ -2,6 +2,13 @@
 将ChatGPT接入到钉钉机器人中
 ## 使用方法：
 ### 第一步：
+打开钉钉管理后台
+
+创建或进入一个应用
+
+获取应用的appKey和appSecret
+
+### 第二步：
 打开start.py
 
 将data_token里面的appKey和appSecret换成钉钉企业应用里面的appKey和appSecret
