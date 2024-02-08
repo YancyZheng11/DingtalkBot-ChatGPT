@@ -14,7 +14,7 @@
 将data_token里面的appKey和appSecret换成钉钉企业应用里面的appKey和appSecret
 
 ### 第二步：
-打开[openai后台](https://openai.com/)
+打开[Openai后台](https://openai.com/)
 
 获取api-key
 
