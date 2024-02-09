@@ -27,7 +27,7 @@ headers={'Content-Type': 'application/json'}
 memory = []
 port = 1145 #填写端口号
 openai.api_key = '' # 这里填写自己的openai api-key
-webhook = 'https://oapi.dingtalk.com/robot/send?access_token=4ddc87ea69c07027bce07e626e316f480bb64772ad5739cd2a7267accc5b1ea1'
+webhook = ''
 
 def send(a):
     data = {"msgtype": "text", "text": {"content": a}}
