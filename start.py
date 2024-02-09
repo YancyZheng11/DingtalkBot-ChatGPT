@@ -27,7 +27,7 @@ headers={'Content-Type': 'application/json'}
 memory = []
 port = 1145 #填写端口号
 openai.api_key = '' # 这里填写自己的openai api-key
-webhook = ''
+webhook = '' 这里填写钉钉机器人的webhook
 
 def send(a):
     data = {"msgtype": "text", "text": {"content": a}}
