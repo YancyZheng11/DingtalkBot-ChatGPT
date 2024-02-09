@@ -24,25 +24,12 @@ def handle_request():
         return 'error'
 
 headers={'Content-Type': 'application/json'}
-data_token = {
-    "appKey": '', # 这里填写你钉钉内部应用的appKey
-    "appSecret": '' # 这里填写你钉钉内部应用的appSecret
-}
 memory = []
 port = 1145 #填写端口号
 openai.api_key = '' # 这里填写自己的openai api-key
-url_token = "https://api.dingtalk.com/v1.0/oauth2/accessToken"
+webhook = 'https://oapi.dingtalk.com/robot/send?access_token=4ddc87ea69c07027bce07e626e316f480bb64772ad5739cd2a7267accc5b1ea1'
 
 def send(a):
-    response = requests.post(url_token, json=data, headers=headers)
-    if response.status_code == 200:
-        accessToken = response.json()['accessToken']
-        webhook = f'https://oapi.dingtalk.com/robot/send?access_token={accessToken}'
-
-    else:
-        print("获取accessToken失败。错误码：", response.status_code)
-        input('')
-
     data = {"msgtype": "text", "text": {"content": a}}
     res = requests.post(webhook, data=json.dumps(data), headers=headers)
     print(res.text)
