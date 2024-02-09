@@ -25,7 +25,7 @@ def handle_request():
 
 headers={'Content-Type': 'application/json'}
 memory = []
-port = 1145 #填写端口号
+port = 1145 # 填写端口号
 openai.api_key = '' # 这里填写自己的openai api-key
 webhook = '' # 这里填写钉钉机器人的webhook
 
