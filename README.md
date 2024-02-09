@@ -41,9 +41,9 @@
 
 消息接收地址改成之前start.py里设置的接收地址
 
-![4](https://github.com/YancyZheng11/DingtalkBot-ChatGPT/blob/main/example/4.jpg)
-
 （确保这个地址能在公网上访问）
+
+![4](https://github.com/YancyZheng11/DingtalkBot-ChatGPT/blob/main/example/4.png)
 
 调试确定没有问题后发布
 
