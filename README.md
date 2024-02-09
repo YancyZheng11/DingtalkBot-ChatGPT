@@ -7,11 +7,17 @@
 
 创建或进入一个应用
 
-获取应用的appKey和appSecret
+创建一个机器人
+
+创建一个钉钉企业内部群
+
+在群里添加之前创建的机器人
+
+获取机器人的webhook
 
 打开start.py
 
-将data_token里面的appKey和appSecret换成钉钉企业应用里面的appKey和appSecret
+将webhook的值改成机器人的webhook
 
 ### 第二步：
 打开[Openai后台](https://openai.com/)
